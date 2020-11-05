@@ -4,8 +4,8 @@
 	<groupId>in.javahome</groupId>
 	<artifactId>vijay-app</artifactId>
 	<packaging>war</packaging>
-	<version>3.0.0-SNAPSHOT</version>
-	<name>simple-app</name>
+	<version>3.0.1-SNAPSHOT</version>
+	<name>vijay-app</name>
 	<url>http://maven.apache.org</url>
 	
 	<dependencies>
