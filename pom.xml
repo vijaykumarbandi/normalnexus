@@ -1,24 +1,22 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>dev</groupId>
-  <artifactId>devnex</artifactId>
-  <packaging>war</packaging>
-  <version>1.0.4-SNAPSHOT</version>
-  
-<pluginRepositories>
-    <pluginRepository>
-      <id>Maven-Artifactory-Plugin</id>
-      <url>https://jcenter.bintray.com</url>
-    </pluginRepository>
-  </pluginRepositories> 
-  
-  <build>
-    <plugins>
-        <plugin>
-            <groupId>org.jfrog.buildinfo</groupId>
-            <artifactId>artifactory-maven-plugin</artifactId>
-            <version>5.1</version>
-            <inherited>false</inherited>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>in.javahome</groupId>
+	<artifactId>vijay-app</artifactId>
+	<packaging>war</packaging>
+	<version>3.0.0-SNAPSHOT</version>
+	<name>simple-app</name>
+	<url>http://maven.apache.org</url>
+	
+	<dependencies>
+<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+</dependencies>
+	
             <executions>
                 <execution>
                     <id>build-info</id>
@@ -36,7 +34,4 @@
                     </configuration>
                 </execution>
             </executions>
-        </plugin>
-    </plugins>
-</build>
 </project>
